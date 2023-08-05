@@ -10,7 +10,7 @@ import UIKit
 var items = ["책 구매", "철수와 약속", "스터디 준비하기"];
 var itemsImageFile = ["cart.png", "clock.png", "pencil.png"]
 
-class TableTableViewController: UITableViewController {
+class TableViewController: UITableViewController {
 
     @IBOutlet var tvListView: UITableView!
     override func viewDidLoad() {
