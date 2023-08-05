@@ -18,6 +18,9 @@
 		A365866A2A7E078200424789 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36586692A7E078200424789 /* TableTableViewController.swift */; };
 		A365866C2A7E07C100424789 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365866B2A7E07C100424789 /* AddViewController.swift */; };
 		A365866E2A7E07D900424789 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365866D2A7E07D900424789 /* DetailViewController.swift */; };
+		A36586722A7E09BE00424789 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A365866F2A7E09BD00424789 /* clock.png */; };
+		A36586732A7E09BE00424789 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A36586702A7E09BD00424789 /* cart.png */; };
+		A36586742A7E09BE00424789 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = A36586712A7E09BE00424789 /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		A36586692A7E078200424789 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 		A365866B2A7E07C100424789 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		A365866D2A7E07D900424789 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A365866F2A7E09BD00424789 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		A36586702A7E09BD00424789 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		A36586712A7E09BE00424789 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		A36586382A7E00DF00424789 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				A36586702A7E09BD00424789 /* cart.png */,
+				A365866F2A7E09BD00424789 /* clock.png */,
+				A36586712A7E09BE00424789 /* pencil.png */,
 				A36586392A7E00DF00424789 /* AppDelegate.swift */,
 				A365863B2A7E00DF00424789 /* SceneDelegate.swift */,
 				A365863F2A7E00DF00424789 /* Main.storyboard */,
@@ -237,6 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36586742A7E09BE00424789 /* pencil.png in Resources */,
+				A36586722A7E09BE00424789 /* clock.png in Resources */,
+				A36586732A7E09BE00424789 /* cart.png in Resources */,
 				A36586462A7E00E000424789 /* LaunchScreen.storyboard in Resources */,
 				A36586432A7E00E000424789 /* Assets.xcassets in Resources */,
 				A36586412A7E00DF00424789 /* Main.storyboard in Resources */,
