@@ -61,6 +61,10 @@ class TableTableViewController: UITableViewController {
         }    
     }
     
+    override func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
+        return "삭제"
+    }
+    
 
     /*
     // Override to support rearranging the table view.
