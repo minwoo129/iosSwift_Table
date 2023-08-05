@@ -15,6 +15,9 @@
 		A36586512A7E00E000424789 /* TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36586502A7E00E000424789 /* TableTests.swift */; };
 		A365865B2A7E00E000424789 /* TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365865A2A7E00E000424789 /* TableUITests.swift */; };
 		A365865D2A7E00E000424789 /* TableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365865C2A7E00E000424789 /* TableUITestsLaunchTests.swift */; };
+		A365866A2A7E078200424789 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36586692A7E078200424789 /* TableTableViewController.swift */; };
+		A365866C2A7E07C100424789 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365866B2A7E07C100424789 /* AddViewController.swift */; };
+		A365866E2A7E07D900424789 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365866D2A7E07D900424789 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A36586562A7E00E000424789 /* TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A365865A2A7E00E000424789 /* TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUITests.swift; sourceTree = "<group>"; };
 		A365865C2A7E00E000424789 /* TableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A36586692A7E078200424789 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		A365866B2A7E07C100424789 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A365866D2A7E07D900424789 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				A36586422A7E00E000424789 /* Assets.xcassets */,
 				A36586442A7E00E000424789 /* LaunchScreen.storyboard */,
 				A36586472A7E00E000424789 /* Info.plist */,
+				A36586692A7E078200424789 /* TableTableViewController.swift */,
+				A365866B2A7E07C100424789 /* AddViewController.swift */,
+				A365866D2A7E07D900424789 /* DetailViewController.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A365863A2A7E00DF00424789 /* AppDelegate.swift in Sources */,
+				A365866A2A7E078200424789 /* TableTableViewController.swift in Sources */,
+				A365866E2A7E07D900424789 /* DetailViewController.swift in Sources */,
+				A365866C2A7E07C100424789 /* AddViewController.swift in Sources */,
 				A365863C2A7E00DF00424789 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
